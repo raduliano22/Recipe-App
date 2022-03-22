@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		EC720DAC27E9E07B00490BAD /* Recipe_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DAB27E9E07B00490BAD /* Recipe_AppApp.swift */; };
-		EC720DAE27E9E07B00490BAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DAD27E9E07B00490BAD /* ContentView.swift */; };
+		EC720DAE27E9E07B00490BAD /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DAD27E9E07B00490BAD /* RecipeListView.swift */; };
 		EC720DB027E9E07C00490BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC720DAF27E9E07C00490BAD /* Assets.xcassets */; };
 		EC720DB327E9E07C00490BAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC720DB227E9E07C00490BAD /* Preview Assets.xcassets */; };
+		EC720DC027E9E32700490BAD /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = EC720DBF27E9E32700490BAD /* recipes.json */; };
+		EC720DC227E9E37A00490BAD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DC127E9E37A00490BAD /* Recipe.swift */; };
+		EC720DC427E9EFF000490BAD /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DC327E9EFF000490BAD /* RecipeModel.swift */; };
+		EC720DC627E9F00900490BAD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DC527E9F00900490BAD /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC720DA827E9E07B00490BAD /* Recipe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC720DAB27E9E07B00490BAD /* Recipe_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_AppApp.swift; sourceTree = "<group>"; };
-		EC720DAD27E9E07B00490BAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC720DAD27E9E07B00490BAD /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		EC720DAF27E9E07C00490BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC720DB227E9E07C00490BAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC720DBF27E9E32700490BAD /* recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		EC720DC127E9E37A00490BAD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		EC720DC327E9EFF000490BAD /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		EC720DC527E9F00900490BAD /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		EC720DAA27E9E07B00490BAD /* Recipe App */ = {
 			isa = PBXGroup;
 			children = (
+				EC720DBE27E9E29100490BAD /* Views */,
+				EC720DBD27E9E28900490BAD /* ViewModels */,
+				EC720DBC27E9E27E00490BAD /* Models */,
+				EC720DBB27E9E27400490BAD /* Services */,
+				EC720DB927E9E25E00490BAD /* Data */,
 				EC720DAB27E9E07B00490BAD /* Recipe_AppApp.swift */,
-				EC720DAD27E9E07B00490BAD /* ContentView.swift */,
 				EC720DAF27E9E07C00490BAD /* Assets.xcassets */,
 				EC720DB127E9E07C00490BAD /* Preview Content */,
 			);
@@ -65,6 +77,46 @@
 				EC720DB227E9E07C00490BAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC720DB927E9E25E00490BAD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EC720DBF27E9E32700490BAD /* recipes.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EC720DBB27E9E27400490BAD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC720DC527E9F00900490BAD /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EC720DBC27E9E27E00490BAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC720DC127E9E37A00490BAD /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC720DBD27E9E28900490BAD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EC720DC327E9EFF000490BAD /* RecipeModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EC720DBE27E9E29100490BAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC720DAD27E9E07B00490BAD /* RecipeListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC720DB327E9E07C00490BAD /* Preview Assets.xcassets in Resources */,
+				EC720DC027E9E32700490BAD /* recipes.json in Resources */,
 				EC720DB027E9E07C00490BAD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC720DAE27E9E07B00490BAD /* ContentView.swift in Sources */,
+				EC720DC227E9E37A00490BAD /* Recipe.swift in Sources */,
+				EC720DC427E9EFF000490BAD /* RecipeModel.swift in Sources */,
+				EC720DAE27E9E07B00490BAD /* RecipeListView.swift in Sources */,
 				EC720DAC27E9E07B00490BAD /* Recipe_AppApp.swift in Sources */,
+				EC720DC627E9F00900490BAD /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
