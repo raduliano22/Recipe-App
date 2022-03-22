@@ -15,6 +15,7 @@
 		EC720DC227E9E37A00490BAD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DC127E9E37A00490BAD /* Recipe.swift */; };
 		EC720DC427E9EFF000490BAD /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DC327E9EFF000490BAD /* RecipeModel.swift */; };
 		EC720DC627E9F00900490BAD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DC527E9F00900490BAD /* DataService.swift */; };
+		EC720DC827E9FA8700490BAD /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DC727E9FA8700490BAD /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EC720DC127E9E37A00490BAD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		EC720DC327E9EFF000490BAD /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		EC720DC527E9F00900490BAD /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		EC720DC727E9FA8700490BAD /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				EC720DAD27E9E07B00490BAD /* RecipeListView.swift */,
+				EC720DC727E9FA8700490BAD /* RecipeDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC720DC227E9E37A00490BAD /* Recipe.swift in Sources */,
+				EC720DC827E9FA8700490BAD /* RecipeDetailView.swift in Sources */,
 				EC720DC427E9EFF000490BAD /* RecipeModel.swift in Sources */,
 				EC720DAE27E9E07B00490BAD /* RecipeListView.swift in Sources */,
 				EC720DAC27E9E07B00490BAD /* Recipe_AppApp.swift in Sources */,
