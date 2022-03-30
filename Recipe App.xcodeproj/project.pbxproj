@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		EC40349627EB0DD00025BC35 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40349527EB0DD00025BC35 /* RecipeTabView.swift */; };
+		EC66F7E627F4A85300610A9E /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = EC66F7E527F4A85300610A9E /* recipes.json */; };
 		EC720DAC27E9E07B00490BAD /* Recipe_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DAB27E9E07B00490BAD /* Recipe_AppApp.swift */; };
 		EC720DAE27E9E07B00490BAD /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DAD27E9E07B00490BAD /* RecipeListView.swift */; };
 		EC720DB027E9E07C00490BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC720DAF27E9E07C00490BAD /* Assets.xcassets */; };
 		EC720DB327E9E07C00490BAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC720DB227E9E07C00490BAD /* Preview Assets.xcassets */; };
-		EC720DC027E9E32700490BAD /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = EC720DBF27E9E32700490BAD /* recipes.json */; };
 		EC720DC227E9E37A00490BAD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DC127E9E37A00490BAD /* Recipe.swift */; };
 		EC720DC427E9EFF000490BAD /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DC327E9EFF000490BAD /* RecipeModel.swift */; };
 		EC720DC627E9F00900490BAD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DC527E9F00900490BAD /* DataService.swift */; };
@@ -21,12 +21,12 @@
 
 /* Begin PBXFileReference section */
 		EC40349527EB0DD00025BC35 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
+		EC66F7E527F4A85300610A9E /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = "../../../Lesson 05 Resources/recipes.json"; sourceTree = "<group>"; };
 		EC720DA827E9E07B00490BAD /* Recipe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC720DAB27E9E07B00490BAD /* Recipe_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_AppApp.swift; sourceTree = "<group>"; };
 		EC720DAD27E9E07B00490BAD /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		EC720DAF27E9E07C00490BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC720DB227E9E07C00490BAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EC720DBF27E9E32700490BAD /* recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		EC720DC127E9E37A00490BAD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		EC720DC327E9EFF000490BAD /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		EC720DC527E9F00900490BAD /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		EC720DB927E9E25E00490BAD /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				EC720DBF27E9E32700490BAD /* recipes.json */,
+				EC66F7E527F4A85300610A9E /* recipes.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -184,7 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC720DB327E9E07C00490BAD /* Preview Assets.xcassets in Resources */,
-				EC720DC027E9E32700490BAD /* recipes.json in Resources */,
+				EC66F7E627F4A85300610A9E /* recipes.json in Resources */,
 				EC720DB027E9E07C00490BAD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

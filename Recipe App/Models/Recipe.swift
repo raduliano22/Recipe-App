@@ -9,7 +9,7 @@ import Foundation
 
 // declaring the recipe data structure
 
-class Recipe:Decodable, Identifiable {
+class Recipe: Decodable, Identifiable {
     
     var id: UUID?
     
@@ -20,7 +20,18 @@ class Recipe:Decodable, Identifiable {
     var cookTime: String
     var totalTime: String
     var servings: Int
-    var ingredients: [String]
+    var highlights:[String]
+    var ingredients: [Ingredients]
     var directions: [String]
     
+}
+
+// since our json has been updated we need to update the model
+class Ingredients: Identifiable, Decodable {
+    var id: UUID?
+    
+    var name: String
+    var num: Int?
+    var denom: Int?
+    var unit: String?
 }
