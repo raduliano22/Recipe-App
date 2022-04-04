@@ -15,7 +15,7 @@ struct RecipeTabView: View {
         TabView {
             
             VStack {
-                Text("First tab")
+                RecipeFeaturedView()
                 
             }.tabItem {
                 Text("Favourites")
@@ -29,7 +29,7 @@ struct RecipeTabView: View {
                 Image(systemName: "list.bullet")
             }
             
-        }
+        }.environmentObject(RecipeModel())
         
         
     }
