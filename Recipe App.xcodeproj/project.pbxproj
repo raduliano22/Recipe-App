@@ -120,9 +120,9 @@
 		EC720DBE27E9E29100490BAD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EC40349527EB0DD00025BC35 /* RecipeTabView.swift */,
 				EC720DAD27E9E07B00490BAD /* RecipeListView.swift */,
 				EC720DC727E9FA8700490BAD /* RecipeDetailView.swift */,
-				EC40349527EB0DD00025BC35 /* RecipeTabView.swift */,
 				ECBC9C4F27FB0C92003F24E3 /* RecipeFeaturedView.swift */,
 			);
 			path = Views;
