@@ -40,7 +40,7 @@ struct RecipeFeaturedView: View {
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
                                         .clipped()
-                                    Text(model.recipes[index].name)
+                                    Text(model.recipes[index].name  )
                                         .padding(5)
                                 }
                             }.frame(width: geo.size.width - 40, height: geo.size.height - 100, alignment:.center)
