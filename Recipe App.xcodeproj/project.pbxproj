@@ -19,6 +19,7 @@
 		EC720DC827E9FA8700490BAD /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC720DC727E9FA8700490BAD /* RecipeDetailView.swift */; };
 		ECBC9C5027FB0C92003F24E3 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC9C4F27FB0C92003F24E3 /* RecipeFeaturedView.swift */; };
 		ECCD1B8727FEE380000BC14B /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD1B8627FEE380000BC14B /* Rational.swift */; };
+		ECCD1B8927FEF680000BC14B /* RecipeHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD1B8827FEF680000BC14B /* RecipeHighlights.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		EC720DC727E9FA8700490BAD /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		ECBC9C4F27FB0C92003F24E3 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		ECCD1B8627FEE380000BC14B /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
+		ECCD1B8827FEF680000BC14B /* RecipeHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHighlights.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				EC720DAD27E9E07B00490BAD /* RecipeListView.swift */,
 				EC720DC727E9FA8700490BAD /* RecipeDetailView.swift */,
 				ECBC9C4F27FB0C92003F24E3 /* RecipeFeaturedView.swift */,
+				ECCD1B8827FEF680000BC14B /* RecipeHighlights.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			files = (
 				EC720DC227E9E37A00490BAD /* Recipe.swift in Sources */,
 				EC720DC827E9FA8700490BAD /* RecipeDetailView.swift in Sources */,
+				ECCD1B8927FEF680000BC14B /* RecipeHighlights.swift in Sources */,
 				ECCD1B8727FEE380000BC14B /* Rational.swift in Sources */,
 				EC720DC427E9EFF000490BAD /* RecipeModel.swift in Sources */,
 				EC720DAE27E9E07B00490BAD /* RecipeListView.swift in Sources */,
